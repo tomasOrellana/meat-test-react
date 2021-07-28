@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/meat-test-react/static/css/main.69d2e8dd.chunk.css",
+    "main.js": "/meat-test-react/static/js/main.446eab6a.chunk.js",
+    "main.js.map": "/meat-test-react/static/js/main.446eab6a.chunk.js.map",
+    "runtime-main.js": "/meat-test-react/static/js/runtime-main.97434616.js",
+    "runtime-main.js.map": "/meat-test-react/static/js/runtime-main.97434616.js.map",
+    "static/js/2.4dd9ebe1.chunk.js": "/meat-test-react/static/js/2.4dd9ebe1.chunk.js",
+    "static/js/2.4dd9ebe1.chunk.js.map": "/meat-test-react/static/js/2.4dd9ebe1.chunk.js.map",
+    "index.html": "/meat-test-react/index.html",
+    "static/css/main.69d2e8dd.chunk.css.map": "/meat-test-react/static/css/main.69d2e8dd.chunk.css.map",
+    "static/js/2.4dd9ebe1.chunk.js.LICENSE.txt": "/meat-test-react/static/js/2.4dd9ebe1.chunk.js.LICENSE.txt",
+    "static/media/arrow.c3e664b2.svg": "/meat-test-react/static/media/arrow.c3e664b2.svg",
+    "static/media/facebook-icon.48dc9652.svg": "/meat-test-react/static/media/facebook-icon.48dc9652.svg",
+    "static/media/heading-shape.7a2e9c7f.png": "/meat-test-react/static/media/heading-shape.7a2e9c7f.png",
+    "static/media/hero-background.e0af7d7a.jpg": "/meat-test-react/static/media/hero-background.e0af7d7a.jpg",
+    "static/media/hero-shape.a11bc492.png": "/meat-test-react/static/media/hero-shape.a11bc492.png",
+    "static/media/instagram-icon.449e5ec5.svg": "/meat-test-react/static/media/instagram-icon.449e5ec5.svg",
+    "static/media/youtube-icon.361b2fa1.svg": "/meat-test-react/static/media/youtube-icon.361b2fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97434616.js",
+    "static/js/2.4dd9ebe1.chunk.js",
+    "static/css/main.69d2e8dd.chunk.css",
+    "static/js/main.446eab6a.chunk.js"
+  ]
+}
