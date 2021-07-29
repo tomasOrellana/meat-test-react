@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meat-test-react/static/css/main.69d2e8dd.chunk.css",
-    "main.js": "/meat-test-react/static/js/main.5a70cd35.chunk.js",
-    "main.js.map": "/meat-test-react/static/js/main.5a70cd35.chunk.js.map",
+    "main.js": "/meat-test-react/static/js/main.626c18d2.chunk.js",
+    "main.js.map": "/meat-test-react/static/js/main.626c18d2.chunk.js.map",
     "runtime-main.js": "/meat-test-react/static/js/runtime-main.97434616.js",
     "runtime-main.js.map": "/meat-test-react/static/js/runtime-main.97434616.js.map",
     "static/js/2.a7866ed9.chunk.js": "/meat-test-react/static/js/2.a7866ed9.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.97434616.js",
     "static/js/2.a7866ed9.chunk.js",
     "static/css/main.69d2e8dd.chunk.css",
-    "static/js/main.5a70cd35.chunk.js"
+    "static/js/main.626c18d2.chunk.js"
   ]
 }
