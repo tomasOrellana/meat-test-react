@@ -18,7 +18,7 @@ const useStyles = () =>
         color: "#3F454A",
         width: "100%",
         "@media (max-width: 960px)": {
-          fontSize: "60px",
+          fontSize: "48px",
         },
       },
       headingShape: {

@@ -55,9 +55,9 @@ const useStyles = (heroImage) =>
         fontFamily: "Caveat",
         zIndex: 1,
         "@media (max-width: 960px)": {
-          fontSize: "70px",
+          fontSize: "65px",
           textAlign: "center",
-          width: "100vw",
+          width: "95vw",
         },
       },
       heroShape: {

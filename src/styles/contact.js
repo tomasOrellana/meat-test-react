@@ -38,6 +38,10 @@ const useStyles = () =>
         "&:disabled": {
           backgroundColor: "#CFCFCF",
         },
+        "@media (max-width: 960px)": {
+          padding: "12px",
+          width: "100px",
+        },
       },
       snackbar: {
         color: "#FFFFFF",
