@@ -1,7 +1,9 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { Box, Typography, CircularProgress } from "@material-ui/core";
 // local import
 import arrow from "images/arrow.svg";
+import appearAnim from "./animation";
 import useStyles from "./styles";
 
 const Item = ({ title, id, selected, onClick, isLoading }) => {
@@ -23,12 +25,18 @@ const Item = ({ title, id, selected, onClick, isLoading }) => {
       >
         {title}
       </Typography>
-      {isSelected &&
-        (isLoading ? (
-          <CircularProgress size={24} />
-        ) : (
-          <img src={arrow} alt={`${arrow}-icon`} className={classes.icon} />
-        ))}
+      <motion.div
+        variants={appearAnim}
+        initial="hidden"
+        animate={isSelected ? "visible" : "hidden"}
+      >
+        {isSelected &&
+          (isLoading ? (
+            <CircularProgress size={24} />
+          ) : (
+            <img src={arrow} alt={`${arrow}-icon`} className={classes.icon} />
+          ))}
+      </motion.div>
     </Box>
   );
 };

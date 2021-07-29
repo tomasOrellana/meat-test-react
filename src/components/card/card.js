@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { Box, Typography, Button } from "@material-ui/core";
 import { Skeleton } from "@material-ui/lab";
 // local import
@@ -9,8 +10,9 @@ const Card = ({ title, text, image, url }) => {
   const [isHover, setIsHover] = useState(false);
   const classes = useStyles(isLoaded, isHover);
   return (
-    <div
+    <motion.div
       className={classes.root}
+      whileHover={{ scale: 1.02 }}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
@@ -46,7 +48,7 @@ const Card = ({ title, text, image, url }) => {
           className={classes.skeleton}
         />
       )}
-    </div>
+    </motion.div>
   );
 };
 
